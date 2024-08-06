@@ -1,0 +1,24 @@
+.project-list-container {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    margin-bottom: 50px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .project-list-container {
+      margin-bottom: 150px;
+    }
+  }
+
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .inside-container{
+    text-align: center;
+  }

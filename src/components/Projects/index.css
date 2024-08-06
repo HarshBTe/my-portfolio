@@ -1,0 +1,33 @@
+.projects-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     margin-top: 70px;
+     margin-bottom: 50px;
+
+}
+
+.specific-project{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 5px; 
+      box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;     
+}
+
+.project-front-img{
+    height: 200px;
+    width: 200px;
+}
+
+.outer-project-container{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    padding: 20px;
+}
+
+.heading-project{
+    color: black;
+}
