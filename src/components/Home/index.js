@@ -5,6 +5,7 @@ import Projects from "../Projects"
 import './index.css'
 import { Link } from "react-router-dom";
 import { BsRocketTakeoffFill } from "react-icons/bs";
+import Skills from "../Skills";
 
 const Home = () => (
     <>
@@ -25,9 +26,10 @@ const Home = () => (
        <div className="journey-container">
           <BsRocketTakeoffFill className="icon-git"/>
         <h3> Click To View Course Completion Journey  </h3>
-        <Link to="/timelineview"><button className="button-view"> View </button></Link>
+        <Link to="/my-portfolio/timelineview"><button className="button-view"> View </button></Link>
        </div>
        <Projects />
+       <Skills />
        <Certifications />
        <Contact />
     </>

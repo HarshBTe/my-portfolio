@@ -16,12 +16,12 @@ function App() {
      <BrowserRouter>
     
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/static" element={<StaticWeb />} />
-        <Route exact path="/responsive" element={<ResponsiveWeb />} />
-        <Route exact path="/dynamic" element={<DynamicWeb />} />
-        <Route exact path="/react" element={<ReactWeb />} />
-        <Route exact path="/timelineview" element={<TimelineView />} />
+        <Route exact path="/my-portfolio" element={<Home />} />
+        <Route exact path="/my-portfolio/static" element={<StaticWeb />} />
+        <Route exact path="/my-portfolio/responsive" element={<ResponsiveWeb />} />
+        <Route exact path="/my-portfolio/dynamic" element={<DynamicWeb />} />
+        <Route exact path="/my-portfolio/react" element={<ReactWeb />} />
+        <Route exact path="/my-portfolio/timelineview" element={<TimelineView />} />
         <Route path ="*" element={<NotFound />} />
       </Routes>
    
