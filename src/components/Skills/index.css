@@ -1,8 +1,72 @@
-.inner-container{
+
+
+
+.inner-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+    margin: 3rem;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    padding: 2rem;
+    font-style: italic;
+    font-size: 1.2rem;
 }
 
+.progressbar {
+    width: 30vw;
+    height: 3vh;
+}
 
+.progressbar-container {
+    margin: 10px;
+}
+
+.skill-text {
+    margin-left: 10px;
+}
+
+.progressbar-maincontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.skill-main-container {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .inner-container {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+        margin: 1rem;
+    }
+
+    .progressbar {
+        width: 60vw; /* Adjust width for smaller screens */
+    }
+
+    .progressbar-maincontainer {
+        flex-direction: column; /* Stack progress bars vertically */
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .inner-container {
+        font-size: 1rem; /* Adjust font size for very small screens */
+        padding: 1rem;
+    }
+
+    .progressbar {
+        width: 80vw; /* Make progress bars almost full width */
+    }
+
+    .skill-main-container h3 {
+        font-size: 1.5rem; /* Adjust heading size */
+    }
+}

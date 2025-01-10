@@ -7,14 +7,19 @@ const projectsList = [
   category: 'RESPONSIVE',
   imageURL: 'https://assets.ccbp.in/frontend/react-js/projects-r4-img.png',
   title: 'VR Website',
+  url: 'vrdubey.ccbp.tech',
   description:
     'VR Website enables users to explore AR and VR Products and Industry happenings.',
 },
+
+
+
 {
   projectId: 1,
   category: 'RESPONSIVE',
   imageURL: 'https://assets.ccbp.in/frontend/react-js/projects-r2-img.png',
   title: 'Food Munch',
+  url: 'foodmunchdubey.ccbp.tech',
   description: 'Food Much Website is a user-centric food tech website.',
 },
 {
@@ -22,9 +27,21 @@ const projectsList = [
   category: 'RESPONSIVE',
   imageURL: 'https://assets.ccbp.in/frontend/react-js/projects-r3-img.png',
   title: 'Portfolio',
+  url: 'potfoliodubey.ccbp.tech',
   description:
     'A portfolio is the best alternative for a resume to showcase your skills to the digital world.',
 },
+
+{
+  projectId: 3,
+  category: 'RESPONSIVE',
+  imageURL: 'https://res.cloudinary.com/di3u22t0w/image/upload/v1732269840/istockphoto-1428709516-612x612_ieyvsc.jpg',
+  title: 'Ecommerce Website',
+  url: 'ecommercedubey.ccbp.tech',
+  description:
+    'Ecommerce website describes different section for ordering products.',
+},
+
 
 ]
 const ResponsiveWeb = () => (

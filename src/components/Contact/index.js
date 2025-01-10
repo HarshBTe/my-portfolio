@@ -4,6 +4,7 @@ import { SiInstagram } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
 import { FaXTwitter } from "react-icons/fa6";
 
+
 import './index.css'
 
 const Contact = () => {
@@ -28,10 +29,15 @@ const Contact = () => {
             <a href="https://x.com/harshdubeynxt">
             <FaXTwitter className="icon-git" />
             </a>
+
+            
             </div>
+
+            
 
         </div>
     )
 }
 
 export default Contact
+

@@ -36,3 +36,35 @@
     color: #7b8794;
   }
   
+  /* Button Styling */
+button {
+  padding: 10px 20px; /* Adjust padding for better size */
+  background-color: black; /* Green background */
+  color: white; /* White text color */
+  font-size: 16px; /* Text size */
+  font-weight: 600; /* Make text slightly bold */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  
+}
+
+button:hover {
+  background-color: blue; /* Darken background on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+button:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 3px rgba(72, 126, 255, 0.6); /* Custom focus ring */
+}
+
+/* Centering the button container */
+.button-container {
+  display: flex;               /* Enable flexbox */
+  justify-content: center;     /* Horizontally center the button */         
+                
+}

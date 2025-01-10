@@ -283,8 +283,7 @@ const TimelineView = () => {
       <div className="chrono-container">
         <div className="HeaderContainer">
           <h1 className="Heading">
-            My Journey of <br />
-            <span className="CCBPHeading">CCBP 4.0</span>{' '}
+            My Journey of CCBP 4.0
           </h1>
         </div>
 

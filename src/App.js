@@ -9,6 +9,7 @@ import ReactWeb from './components/ReactWeb';
 import ResponsiveWeb from './components/ResponsiveWeb';
 import NotFound from './components/NotFound';
 import TimelineView from './components/TimelineView';
+import AIProjects from './components/AIProjects';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/my-portfolio/dynamic" element={<DynamicWeb />} />
         <Route exact path="/my-portfolio/react" element={<ReactWeb />} />
         <Route exact path="/my-portfolio/timelineview" element={<TimelineView />} />
+        <Route exact path='/my-portfolio/ai' element={<AIProjects />} />
         <Route path ="*" element={<NotFound />} />
       </Routes>
    

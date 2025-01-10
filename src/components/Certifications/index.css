@@ -1,4 +1,41 @@
-.main-container{
-    padding: 100px;
+.carousel-container {
     background-color: black;
+}
+
+.carousel-content {
+    padding: 0 5rem; /* Add padding inside the carousel */
+}
+
+.carousel-content .carousel .slide img {
+    max-width: 100%; /* Ensure images fit within the padding */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Proper scaling */
+}
+
+/* Adjust legend text for smaller screens */
+.carousel-content .legend {
+    font-size: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .carousel-content {
+        padding: 0 1rem; /* Reduce padding for smaller devices */
+    }
+
+    .carousel-content .legend {
+        font-size: 0.9rem; /* Adjust text size for mid-size devices */
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-content {
+        padding: 0 0.5rem; /* Minimal padding for mobile devices */
+    }
+
+    .carousel-content .legend {
+        font-size: 0.8rem; /* Adjust text size for smaller devices */
+    }
 }

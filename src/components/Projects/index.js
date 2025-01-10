@@ -1,36 +1,101 @@
 import './index.css'
 import { Link } from "react-router-dom";
 
+
+
 const Projects = () => {
-   return ( <div className='outer-project-container'>
-      <h1 align="center"> Projects </h1>
-      <div className='projects-container'>
-        <Link  to="/my-portfolio/static">
-        <div className='specific-project'>
-            <h3 className='heading-project'> Static Websites </h3>
-            <img className="project-front-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi1-img.png" />
-         </div>
-         </Link>
-         <Link to="/my-portfolio/responsive">
-         <div className='specific-project'>
-            <h3 className='heading-project'> Responsive Websites </h3>
-            <img className="project-front-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-website-logo-img.png" />
-         </div>
-         </Link>
-         <Link to="/my-portfolio/dynamic">
-         <div className='specific-project'>
-            <h3 className='heading-project'> Dynamic Websites </h3>
-            <img className="project-front-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/tip-calculator-img.png" />
-         </div>
-         </Link>
-         <Link to="/my-portfolio/react">
-         <div className='specific-project'>
-            <h3 className='heading-project'> React JS Websites </h3>
-            <img className="project-front-img" src="https://assets.ccbp.in/frontend/react-js/comments-app/comments-img.png" />
-         </div>
-         </Link>
-      </div>
+   return ( 
+ 
+      
+    <div className='outer-project-container'>
+       <h1 align="center"> Projects </h1>
+
+      <ul className="project-list-container">
+ 
+      <Link  to="/my-portfolio/static">
+      <li className="project-item-container">
+       
+        <img
+          className="project-item-image"
+          src="https://assets.ccbp.in/frontend/react-js/projects-s4-img.png"
+          alt="not found"
+        />
+        <div className="project-item-details-container">
+          <h1 className="project-item-title">Static Websites</h1>
+        </div>
+        
+      </li>
+      </Link>
+
+
+      <Link  to="/my-portfolio/responsive">
+      <li className="project-item-container">
+       
+        <img
+          className="project-item-image"
+          src="https://assets.ccbp.in/frontend/react-js/projects-r2-img.png"
+          alt="not found"
+        />
+        <div className="project-item-details-container">
+          <h1 className="project-item-title">Responsive Websites</h1>
+        </div>
+        
+      </li>
+      </Link>
+
+
+      <Link  to="/my-portfolio/dynamic">
+      <li className="project-item-container">
+       
+        <img
+          className="project-item-image"
+          src="https://assets.ccbp.in/frontend/react-js/projects-d1-img.png"
+          alt="not found"
+        />
+        <div className="project-item-details-container">
+          <h1 className="project-item-title">Dynamic Websites</h1>
+        </div>
+        
+      </li>
+      </Link>
+
+      <Link  to="/my-portfolio/react">
+      <li className="project-item-container">
+       
+        <img
+          className="project-item-image"
+          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
+          alt="not found"
+        />
+        <div className="project-item-details-container">
+          <h1 className="project-item-title">Full Stack Projects</h1>
+        </div>
+        
+      </li>
+      </Link>
+
+
+      <Link  to="/my-portfolio/ai">
+      <li className="project-item-container">
+       
+        <img
+          className="project-item-image"
+          src="https://res.cloudinary.com/di3u22t0w/image/upload/v1732102955/ai-generated-8540915_640_nz6xvi.webp"
+          alt="not found"
+        />
+        <div className="project-item-details-container">
+          <h1 className="project-item-title">AI/ML Projects</h1>
+        </div>
+        
+      </li>
+      </Link>
+
+
+           
+      </ul>
+
     </div>
+
    )
 }
 
