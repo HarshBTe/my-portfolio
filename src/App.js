@@ -17,8 +17,8 @@ function App() {
      <BrowserRouter>
     
       <Routes>
-        <Route exact path="/my-portfolio" element={<Home />} />
-        <Route exact path="/my-portfolio/static" element={<StaticWeb />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/static" element={<StaticWeb />} />
         <Route exact path="/my-portfolio/responsive" element={<ResponsiveWeb />} />
         <Route exact path="/my-portfolio/dynamic" element={<DynamicWeb />} />
         <Route exact path="/my-portfolio/react" element={<ReactWeb />} />
