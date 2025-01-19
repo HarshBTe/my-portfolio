@@ -2,12 +2,13 @@ import Certifications from "../Certifications";
 import Contact from "../Contact";
 import NavBar from "../NavBar";
 import Projects from "../Projects"
-import './index.css'
+
 import { Link } from "react-router-dom";
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import Skills from "../Skills";
 import ContactForm from "../ContactForm";
+import './index.css'
 
 
 const Home = () => (
@@ -61,8 +62,8 @@ const Home = () => (
         className="icon-git"
         alt="Rocket Icon"
     />
-    <h3>!!! Click To View My Skill Journey !!!</h3>
-    <Link to="/my-portfolio/timelineview">
+    <h4>!!! Click To View My Skill Journey !!!</h4>
+    <Link to="/timelineview">
         <button className="button-view">View</button>
     </Link>
 </div>

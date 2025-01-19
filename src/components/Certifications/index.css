@@ -1,9 +1,10 @@
 .carousel-container {
     background-color: black;
+    padding: 2rem;
 }
 
 .carousel-content {
-    padding: 0 5rem; /* Add padding inside the carousel */
+    padding: 0 7rem; /* Add padding inside the carousel */
 }
 
 .carousel-content .carousel .slide img {

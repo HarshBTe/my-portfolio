@@ -67,7 +67,7 @@ form button:hover {
     background: #624ec6;
 }
 
-.profile-img {
+.contact-profile-img {
     max-height: 150px;
     max-width: 150px;
     width: 20%;
@@ -107,7 +107,7 @@ form button:hover {
         margin: 10px;
     }
 
-    .profile-img {
+    .contact-profile-img {
         max-height: 120px;
         max-width: 120px;
     }

@@ -51,7 +51,7 @@ function ContactForm() {
             <button type="submit">Send Message</button>
         </form>
         <div className='desc-section'>
-          <img src="https://res.cloudinary.com/di3u22t0w/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1732531640/20220419_143215-01.jpeg_tnqgx2.jpg" className='profile-img' />
+          <img src="https://res.cloudinary.com/di3u22t0w/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1732531640/20220419_143215-01.jpeg_tnqgx2.jpg" className='contact-profile-img' />
           <p>Hello! You can reach out to me via contact form <br />
              I will be happy to help you.
           </p>

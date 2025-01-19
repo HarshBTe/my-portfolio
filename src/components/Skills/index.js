@@ -39,27 +39,27 @@ const Skills = () => (
 
             <div className='progressbar-container'>
             <span className='skill-text'>HTML</span>
-            <ProgressBar className="progressbar" completed={60} />
+            <ProgressBar className="progressbar" completed={95} />
             </div>
             
             <div className='progressbar-container'>
             <span className='skill-text'>CSS</span>
-            <ProgressBar className="progressbar" completed={80} />
+            <ProgressBar className="progressbar" completed={90} />
             </div>
 
             <div className='progressbar-container'>
             <span className='skill-text'>JavaScript</span>
-            <ProgressBar className="progressbar" completed={80} />
+            <ProgressBar className="progressbar" completed={92} />
             </div>
 
             <div className='progressbar-container'>
             <span className='skill-text'>Reactjs</span>
-            <ProgressBar className="progressbar" completed={80} />
+            <ProgressBar className="progressbar" completed={90} />
             </div>
 
             <div className='progressbar-container'>
             <span className='skill-text'>Nodejs</span>
-            <ProgressBar className="progressbar" completed={80} />
+            <ProgressBar className="progressbar" completed={88} />
             </div>
 
 
@@ -70,17 +70,17 @@ const Skills = () => (
 
             <div className='progressbar-container'>
             <span className='skill-text'>MYSQL/SQLite</span>
-            <ProgressBar className="progressbar" completed={60} />
+            <ProgressBar className="progressbar" completed={93} />
             </div>
             
             <div className='progressbar-container'>
             <span className='skill-text'>MongoDB</span>
-            <ProgressBar className="progressbar" completed={80} />
+            <ProgressBar className="progressbar" completed={85} />
             </div>
 
             <div className='progressbar-container'>
             <span className='skill-text'>Python</span>
-            <ProgressBar className="progressbar" completed={80} />
+            <ProgressBar className="progressbar" completed={91} />
             </div>
 
             <div className='progressbar-container'>
