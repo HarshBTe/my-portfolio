@@ -8,7 +8,6 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import Skills from "../Skills";
 import ContactForm from "../ContactForm";
-import YoutubeVideos from "../YoutubeVideos";
 
 
 const Home = () => (
@@ -77,7 +76,7 @@ const Home = () => (
        <Skills />
        <Certifications />
        
-       <YoutubeVideos />
+
        <ContactForm />
       <Contact />
     </div>
