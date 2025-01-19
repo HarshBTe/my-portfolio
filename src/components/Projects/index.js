@@ -12,7 +12,7 @@ const Projects = () => {
 
       <ul className="project-list-container">
  
-      <Link  to="/my-portfolio/static">
+      <Link  to="/static">
       <li className="project-item-container">
        
         <img
@@ -28,7 +28,7 @@ const Projects = () => {
       </Link>
 
 
-      <Link  to="/my-portfolio/responsive">
+      <Link  to="/responsive">
       <li className="project-item-container">
        
         <img
@@ -44,7 +44,7 @@ const Projects = () => {
       </Link>
 
 
-      <Link  to="/my-portfolio/dynamic">
+      <Link  to="/dynamic">
       <li className="project-item-container">
        
         <img
@@ -59,7 +59,7 @@ const Projects = () => {
       </li>
       </Link>
 
-      <Link  to="/my-portfolio/react">
+      <Link  to="/react">
       <li className="project-item-container">
        
         <img
@@ -75,7 +75,7 @@ const Projects = () => {
       </Link>
 
 
-      <Link  to="/my-portfolio/ai">
+      <Link  to="/ai">
       <li className="project-item-container">
        
         <img
