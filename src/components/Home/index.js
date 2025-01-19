@@ -62,7 +62,7 @@ const Home = () => (
         className="icon-git"
         alt="Rocket Icon"
     />
-    <h4>!!! Click To View My Skill Journey !!!</h4>
+    <h4> Click To View My Skill Journey </h4>
     <Link to="/timelineview">
         <button className="button-view">View</button>
     </Link>

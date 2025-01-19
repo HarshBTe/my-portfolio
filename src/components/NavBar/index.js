@@ -20,7 +20,7 @@ function NavBar() {
                             <Nav.Link href="#contact">Contact</Nav.Link>
                             <Nav.Link href="#skills">Skills</Nav.Link>
                         </Nav>
-                        <a href="harsh_resume.pdf" download="HarshResume">
+                        <a href="resume_harsh.pdf" download="HarshResume">
                             <button className="resume-btn">Download Resume</button>
                         </a>
                     </Navbar.Collapse>
